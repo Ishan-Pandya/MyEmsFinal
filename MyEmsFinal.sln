@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEms.Web", "srs\MyEms.Web\MyEms.Web.csproj", "{71F9F394-6A3C-4DA0-B4F9-1155798A48FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEms.BL", "srs\MyEms.BL\MyEms.BL.csproj", "{7B6AD4EF-58B3-4E53-80E4-377E36AEF3AD}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71F9F394-6A3C-4DA0-B4F9-1155798A48FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71F9F394-6A3C-4DA0-B4F9-1155798A48FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71F9F394-6A3C-4DA0-B4F9-1155798A48FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71F9F394-6A3C-4DA0-B4F9-1155798A48FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B6AD4EF-58B3-4E53-80E4-377E36AEF3AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B6AD4EF-58B3-4E53-80E4-377E36AEF3AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B6AD4EF-58B3-4E53-80E4-377E36AEF3AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B6AD4EF-58B3-4E53-80E4-377E36AEF3AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
